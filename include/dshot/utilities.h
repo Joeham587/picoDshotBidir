@@ -1,9 +1,7 @@
 #pragma once
 
 #include <stdint.h>
-// todo: ifdef out all the arduino stuff
-#include <Arduino.h>
-
+#include <stdio.h>
 namespace DShot {
 
 void print_bin(uint16_t var);
